@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08EFAB281C859576005EFBF4 /* AnnotationClusteringFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EFAB271C859576005EFBF4 /* AnnotationClusteringFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08EFAB361C8595F4005EFBF4 /* FBAnnotationCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EFAB2D1C8595F4005EFBF4 /* FBAnnotationCluster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08EFAB371C8595F4005EFBF4 /* FBAnnotationCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EFAB2E1C8595F4005EFBF4 /* FBAnnotationCluster.m */; };
+		08EFAB381C8595F4005EFBF4 /* FBAnnotationClustering.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EFAB2F1C8595F4005EFBF4 /* FBAnnotationClustering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08EFAB391C8595F4005EFBF4 /* FBClusteringManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EFAB301C8595F4005EFBF4 /* FBClusteringManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08EFAB3A1C8595F4005EFBF4 /* FBClusteringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EFAB311C8595F4005EFBF4 /* FBClusteringManager.m */; };
+		08EFAB3B1C8595F5005EFBF4 /* FBQuadTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EFAB321C8595F4005EFBF4 /* FBQuadTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08EFAB3C1C8595F5005EFBF4 /* FBQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EFAB331C8595F4005EFBF4 /* FBQuadTree.m */; };
+		08EFAB3D1C8595F5005EFBF4 /* FBQuadTreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EFAB341C8595F4005EFBF4 /* FBQuadTreeNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08EFAB3E1C8595F5005EFBF4 /* FBQuadTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EFAB351C8595F4005EFBF4 /* FBQuadTreeNode.m */; };
 		8A86F1B196A24278AA00E45F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F00D94D0560465788605775 /* libPods.a */; };
 		DC505A8518F0B505008229F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC505A8418F0B505008229F7 /* Foundation.framework */; };
 		DC505A8718F0B505008229F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC505A8618F0B505008229F7 /* CoreGraphics.framework */; };
@@ -38,6 +48,18 @@
 
 /* Begin PBXFileReference section */
 		07747994D3D1DB6F5D31E65D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		08EFAB251C859576005EFBF4 /* FBAnnotationClustering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBAnnotationClustering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EFAB271C859576005EFBF4 /* AnnotationClusteringFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnotationClusteringFramework.h; sourceTree = "<group>"; };
+		08EFAB291C859576005EFBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EFAB2D1C8595F4005EFBF4 /* FBAnnotationCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBAnnotationCluster.h; path = ../../FBAnnotationClustering/FBAnnotationCluster.h; sourceTree = "<group>"; };
+		08EFAB2E1C8595F4005EFBF4 /* FBAnnotationCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBAnnotationCluster.m; path = ../../FBAnnotationClustering/FBAnnotationCluster.m; sourceTree = "<group>"; };
+		08EFAB2F1C8595F4005EFBF4 /* FBAnnotationClustering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBAnnotationClustering.h; path = ../../FBAnnotationClustering/FBAnnotationClustering.h; sourceTree = "<group>"; };
+		08EFAB301C8595F4005EFBF4 /* FBClusteringManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBClusteringManager.h; path = ../../FBAnnotationClustering/FBClusteringManager.h; sourceTree = "<group>"; };
+		08EFAB311C8595F4005EFBF4 /* FBClusteringManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBClusteringManager.m; path = ../../FBAnnotationClustering/FBClusteringManager.m; sourceTree = "<group>"; };
+		08EFAB321C8595F4005EFBF4 /* FBQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBQuadTree.h; path = ../../FBAnnotationClustering/FBQuadTree.h; sourceTree = "<group>"; };
+		08EFAB331C8595F4005EFBF4 /* FBQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBQuadTree.m; path = ../../FBAnnotationClustering/FBQuadTree.m; sourceTree = "<group>"; };
+		08EFAB341C8595F4005EFBF4 /* FBQuadTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBQuadTreeNode.h; path = ../../FBAnnotationClustering/FBQuadTreeNode.h; sourceTree = "<group>"; };
+		08EFAB351C8595F4005EFBF4 /* FBQuadTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBQuadTreeNode.m; path = ../../FBAnnotationClustering/FBQuadTreeNode.m; sourceTree = "<group>"; };
 		3F00D94D0560465788605775 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD84D55ACD714A4191C3DDAF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DC505A8118F0B505008229F7 /* AnnotationClustering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnotationClustering.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +87,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		08EFAB211C859576005EFBF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC505A7E18F0B505008229F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,6 +127,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		08EFAB261C859576005EFBF4 /* AnnotationClusteringFramework */ = {
+			isa = PBXGroup;
+			children = (
+				08EFAB2D1C8595F4005EFBF4 /* FBAnnotationCluster.h */,
+				08EFAB2E1C8595F4005EFBF4 /* FBAnnotationCluster.m */,
+				08EFAB2F1C8595F4005EFBF4 /* FBAnnotationClustering.h */,
+				08EFAB301C8595F4005EFBF4 /* FBClusteringManager.h */,
+				08EFAB311C8595F4005EFBF4 /* FBClusteringManager.m */,
+				08EFAB321C8595F4005EFBF4 /* FBQuadTree.h */,
+				08EFAB331C8595F4005EFBF4 /* FBQuadTree.m */,
+				08EFAB341C8595F4005EFBF4 /* FBQuadTreeNode.h */,
+				08EFAB351C8595F4005EFBF4 /* FBQuadTreeNode.m */,
+				08EFAB271C859576005EFBF4 /* AnnotationClusteringFramework.h */,
+				08EFAB291C859576005EFBF4 /* Info.plist */,
+			);
+			path = AnnotationClusteringFramework;
+			sourceTree = "<group>";
+		};
 		DC505A7818F0B505008229F7 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +153,7 @@
 				DC505ABC18F0B9C7008229F7 /* Classes */,
 				DC505A8A18F0B505008229F7 /* AnnotationClustering */,
 				DC505AAC18F0B505008229F7 /* AnnotationClusteringTests */,
+				08EFAB261C859576005EFBF4 /* AnnotationClusteringFramework */,
 				DC505A8318F0B505008229F7 /* Frameworks */,
 				DC505A8218F0B505008229F7 /* Products */,
 				05579FE0F8D92E3787937C7E /* Pods */,
@@ -117,6 +165,7 @@
 			children = (
 				DC505A8118F0B505008229F7 /* AnnotationClustering.app */,
 				DC505AA518F0B505008229F7 /* AnnotationClusteringTests.xctest */,
+				08EFAB251C859576005EFBF4 /* FBAnnotationClustering.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,7 +259,41 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		08EFAB221C859576005EFBF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EFAB361C8595F4005EFBF4 /* FBAnnotationCluster.h in Headers */,
+				08EFAB281C859576005EFBF4 /* AnnotationClusteringFramework.h in Headers */,
+				08EFAB3B1C8595F5005EFBF4 /* FBQuadTree.h in Headers */,
+				08EFAB3D1C8595F5005EFBF4 /* FBQuadTreeNode.h in Headers */,
+				08EFAB391C8595F4005EFBF4 /* FBClusteringManager.h in Headers */,
+				08EFAB381C8595F4005EFBF4 /* FBAnnotationClustering.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		08EFAB241C859576005EFBF4 /* AnnotationClusteringFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EFAB2C1C859576005EFBF4 /* Build configuration list for PBXNativeTarget "AnnotationClusteringFramework" */;
+			buildPhases = (
+				08EFAB201C859576005EFBF4 /* Sources */,
+				08EFAB211C859576005EFBF4 /* Frameworks */,
+				08EFAB221C859576005EFBF4 /* Headers */,
+				08EFAB231C859576005EFBF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnnotationClusteringFramework;
+			productName = AnnotationClusteringFramework;
+			productReference = 08EFAB251C859576005EFBF4 /* FBAnnotationClustering.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		DC505A8018F0B505008229F7 /* AnnotationClustering */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC505AB618F0B505008229F7 /* Build configuration list for PBXNativeTarget "AnnotationClustering" */;
@@ -258,6 +341,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Infinum Ltd.";
 				TargetAttributes = {
+					08EFAB241C859576005EFBF4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					DC505AA418F0B505008229F7 = {
 						TestTargetID = DC505A8018F0B505008229F7;
 					};
@@ -278,11 +364,19 @@
 			targets = (
 				DC505A8018F0B505008229F7 /* AnnotationClustering */,
 				DC505AA418F0B505008229F7 /* AnnotationClusteringTests */,
+				08EFAB241C859576005EFBF4 /* AnnotationClusteringFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		08EFAB231C859576005EFBF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC505A7F18F0B505008229F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,6 +432,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		08EFAB201C859576005EFBF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EFAB3E1C8595F5005EFBF4 /* FBQuadTreeNode.m in Sources */,
+				08EFAB371C8595F4005EFBF4 /* FBAnnotationCluster.m in Sources */,
+				08EFAB3C1C8595F5005EFBF4 /* FBQuadTree.m in Sources */,
+				08EFAB3A1C8595F4005EFBF4 /* FBClusteringManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC505A7D18F0B505008229F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,6 +510,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		08EFAB2A1C859576005EFBF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AnnotationClusteringFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timoliver.AnnotationClusteringFramework;
+				PRODUCT_NAME = FBAnnotationClustering;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08EFAB2B1C859576005EFBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AnnotationClusteringFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timoliver.AnnotationClusteringFramework;
+				PRODUCT_NAME = FBAnnotationClustering;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DC505AB418F0B505008229F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -550,6 +707,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		08EFAB2C1C859576005EFBF4 /* Build configuration list for PBXNativeTarget "AnnotationClusteringFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EFAB2A1C859576005EFBF4 /* Debug */,
+				08EFAB2B1C859576005EFBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DC505A7C18F0B505008229F7 /* Build configuration list for PBXProject "AnnotationClustering" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
